@@ -32,13 +32,11 @@ header nav {
 
 /* apply styles to the <nav> element's <ul> elements */
 header nav ul {
-    list-style-type: none;
-}
-
-/* apply styles to every <li> element's inside of the <ul> elements */
-header nav ul li {
-    display: inline-block;
-    margin-left: 5px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* apple styles to the <a> elements inside of the <li> elements */
@@ -62,7 +60,7 @@ header nav ul li a {
 
 /* apply styles to the hero quote */
 .hero-quote {
-    width: 700px;
+    width: 50%;
     color: #ffffff;
     position: absolute;
     bottom: 75px;
@@ -138,32 +136,3 @@ footer p {
     font-style: italic;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
-    
-header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-}
-
-header h1 {
-    width: 100%;
-    text-align: center;     
-}
-
-header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-}
-
-header nav ul li a {
-    font-size: 25px;
-    margin: 0 auto 10px auto;
-}
-
-footer h4, footer p {
-    text-align: center;
-    width: 100%;
-}
