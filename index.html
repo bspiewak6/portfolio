@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Brian Spiewak</title>
 </head>
+
 <body>
     <!-- navigation -->
     <header>
-        <h1>Brian Spiewak</h1>    
+        <h1>
+            Brian<span= class="spiewak">Spiewak</span>
+        </h1>    
         <nav> 
             <!-- Unordered list element -->
             <ul>
@@ -39,54 +43,45 @@
 
         </div>
     </section>
-    <!-- content section -->
-     <section id="about" class="intro">
-            <div class="flex-row">
-                <h2 class="content-title primary-border">About Me</h2>
-            </div>
-            <img src="./assets/images/me.png" alt="brian spiewak professional headshot" />
-            <p>
-                I am a results-driven marketing director with 10-plus years’ experience of innovation, branding, communications 
-                and outreach. I have a strong track record driving revenue through the management of cross-functional creative, 
-                research and operational teams. In addition, I believe that my determination, organization and will power allows 
-                me to work in fast paced environments. My career up to this point has always provided challenging tasks, but it 
-                has been a joy at the same time. I’ve worked with very talented people and it’s always pushed me to become better 
-                at my craft.  
-            </p>
-        </section>
 
+    <section class="content">
+        <!-- about section -->
+        <article id="search-engine-optimization" class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business 
+                as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows 
+                you to increase your visibility and find the right customers for your business.
+            </p>
+        </article>
         <!-- portfolio section -->
-        <section id="work" class="portfolio">
-            <div class="flex-row">
-                <h2 class="content-title primary-border">Work</h2>
-            </div>
+        <article id="online-reputation-management" class="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-left" alt="" />
+            <h2>Online Reputation Management</h2>
             <p>
-                My passion for marketing has grown as my career has progressed. There is no better way to explain than to show you.
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with 
+                an internet connection to say whatever they want about your business. Online Reputation Management 
+                gives you the control over what potential customers see when they search for your business.
             </p>
-            <img src="./assets/images/run-buddy.png" alt="example of my first website for Run Buddy" />
-        </section>
-        
+        </article>
         <!-- contact section -->
-        <section id="contact" class="info">
-            <div class="flex-row">
-                <h2 class="content-title primary-border">Contact</h2>
-            </div>
-            <img src="" alt="" />
+        <article id="social-media-marketing" class="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="" />
+            <h2>Social Media Marketing</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quo exercitationem nisi est quia? 
-                Assumenda minima delectus, ipsam quia, voluptates excepturi dolor odit at culpa tempore commodi nulla. 
-                Animi, ut!
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps 
+                you determine which platforms are suited to your brand, using analytics to find the right markets 
+                and increase your lead generation.
             </p>
-        </section>
-        
+        </article>
+    </section>
+
         
     <!-- footer -->
     <footer>
         <h4>Brian Spiewak</h4>
-        <h5>Based in New York City</h5> 
-        
-    <!-- add LinkedIn -->  
-    
+        <h5>Based in New York City</h5>
     </footer>
 
 </body>

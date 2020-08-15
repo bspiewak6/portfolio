@@ -11,109 +11,102 @@ body {
 
 /* apply styles to <header> */
 header {
-    padding: 20px 35px;
-    background-color: #ffffff;
-    font-weight: bold;
-    font-size: 36px;
+    padding: 20px;
     color: #000000;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-header a {
+header h1 {
+    display: inline-block;
+    font-size: 45px
+}
+
+.spiewak {
+    color: #2a607c;
+}
+
+/* apply styles to the <nav> element */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 28px;
+}
+
+/* apply styles to the <nav> element's <ul> elements */
+header nav ul {
+    list-style-type: none;
+}
+
+/* apply styles every <li> element's inside of the <ul> elements */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* apple styles to the <a> elements inside of the <li> elements */
+header nav ul li a {
+    margin: 0 20px;
+    font-size: 1.55vw;
     text-decoration: none;
     color: #000000;
 }
 
-header nav {
-    margin: 2px 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #000000;
-    margin: 0;
-}
-
 /* hero style start */
-section {
-    padding: 60px;
-}
-
 .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
     background-image: url("../images/mjdunk.jpg");
-    height: 650px;
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-quote {
-    background-color: lightgray;
-    padding: 30px;
     width: 700px;
-    color: #000000;
+    color: #ffffff;
     position: absolute;
     bottom: 75px;
     left: 30px;
     font-size: 26px;
-    font-weight: lighter;
 }
 /* hero style end */
 
-/* content section start */
-.intro h2 {
-    text-align: left;
-}
 
-.content-title {
-    font-size: 40px;
-    color: black;
-    border-right: 3px solid;
-    padding: 10px;
-    text-align: left;
-    margin: 20px;
-    width: 12%;
-}
-
-.primary-border {
-    border-color: black;
-}
-
-.content img {
-    width: 25%;
-    height: 20%;
-}
-
-.content p {
-    font-size: 24px;
+/* content section start */    
+.content {
+    width: 75%;
     display: inline-block;
+    margin-left: 20px;
+}
+/* apply styles to each container in primary left column of site */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    color: ##000000;
 }
 
-.description {
-    width: 65%;
-    color: #000000;
+/* apply styles to all <h2> elements in primary left column of site */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
-    
+
+/* apply styles to all images in primary left column of site */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* apply styles to images in content containers */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
 
 /* content section end */
+
+
 
 /* apply styles to <footer> */
 footer {
