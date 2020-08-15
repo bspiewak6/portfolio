@@ -6,7 +6,7 @@
 
 body {
     background-color: #ffffff;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Adobe Garamond Pro', 'Helvetica', 'Arial', sans-serif;
 }
 
 /* apply styles to <header> */
@@ -62,7 +62,6 @@ section {
     background-position: right;
     background-repeat: no-repeat;
 }
-/* hero style end */
 
 .hero-quote {
     background-color: lightgray;
@@ -73,9 +72,41 @@ section {
     bottom: 75px;
     left: 30px;
     font-size: 26px;
-    font-weight: bold;
+    font-weight: lighter;
 }
-  
+/* hero style end */
+
+/* content section start */
+.content {
+    text-align: left;
+}
+
+.content-title {
+    font-size: 30px;
+    color: lightskyblue;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-right: 3px solid;
+}
+
+.primary-border {
+    border-color: lightskyblue;
+}
+
+.content img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 20px;
+}
+    
+
+
+
+/* content section end */
 
 /* apply styles to <footer> */
 footer {
