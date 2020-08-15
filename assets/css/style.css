@@ -13,13 +13,13 @@ body {
 header {
     padding: 20px 35px;
     background-color: #ffffff;
-}
-
-header {
     font-weight: bold;
     font-size: 36px;
     color: #000000;
-    margin: 0
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -28,8 +28,7 @@ header a {
 }
 
 header nav {
-    float: right;
-    margin: 7px 0;
+    margin: 2px 0;
 }
 
 header nav ul li {
@@ -37,6 +36,7 @@ header nav ul li {
 }
 
 header nav ul li a {
+    padding: 10px 15px;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -47,7 +47,6 @@ header h1 {
     font-size: 36px;
     color: #000000;
     margin: 0;
-    display: inline;
 }
 
 /* hero style start */
@@ -77,12 +76,12 @@ section {
 /* hero style end */
 
 /* content section start */
-.content {
+.content h2 {
     text-align: left;
 }
 
 .content-title {
-    font-size: 30px;
+    font-size: 40px;
     color: lightskyblue;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
@@ -95,12 +94,18 @@ section {
 }
 
 .content img {
-    width: 15%;
-    margin: 10px 0;
+    width: 25%;
+    height: 20%;
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.description {
+    width: 65%;
+    color: #000000;
 }
     
 
@@ -123,8 +128,8 @@ footer h4 {
 }
 
 footer h5 {
-    display: inline;
     color: #eeeeee;
     font-size: 16px;
-    font-style: italic; 
+    font-style: italic;
+    float: right; 
 }
