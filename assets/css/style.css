@@ -31,15 +31,18 @@ header nav {
     margin: 2px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 header h1 {
@@ -76,21 +79,22 @@ section {
 /* hero style end */
 
 /* content section start */
-.content h2 {
+.intro h2 {
     text-align: left;
 }
 
 .content-title {
     font-size: 40px;
-    color: lightskyblue;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    color: black;
     border-right: 3px solid;
+    padding: 10px;
+    text-align: left;
+    margin: 20px;
+    width: 12%;
 }
 
 .primary-border {
-    border-color: lightskyblue;
+    border-color: black;
 }
 
 .content img {
@@ -109,19 +113,19 @@ section {
 }
     
 
-
-
 /* content section end */
 
 /* apply styles to <footer> */
 footer {
     background: #000000;
     width: 100%;
-    padding: 40px 35px;
+    padding: 35px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h4 {
-    display: inline;
     color: #eeeeee;
     font-size: 20px;
     margin: 0;
@@ -131,5 +135,10 @@ footer h5 {
     color: #eeeeee;
     font-size: 16px;
     font-style: italic;
-    float: right; 
+    text-align: right;
+    
+}
+
+.flex-row {
+    display: flex;
 }
