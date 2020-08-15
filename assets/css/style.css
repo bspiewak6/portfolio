@@ -118,6 +118,13 @@ footer {
 footer h4 {
     display: inline;
     color: #eeeeee;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
+}
+
+footer h5 {
+    display: inline;
+    color: #eeeeee;
+    font-size: 16px;
+    font-style: italic; 
 }
