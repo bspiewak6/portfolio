@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <!-- displays site properly based on user's device -->
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Brian Spiewak</title>
 </head>
@@ -70,21 +70,27 @@
         <!-- contact section -->
         <article id="contact-me" class="contact-me">
             <h2>Contact Me</h2>
-            <p>
-                Add Contact Form 
-                <br />
-                Email Address
-                <br />
-                LinkedIn
-            </p>
+            <div class="contact-form">
+                <form>
+                  <label for="contact-name">Your Name</label>
+                  <input type="text" id="contact-name" placeholder="Your Name" />
+              
+                  <label for="contact-message">Message</label>
+                  <textarea id="contact-message" placeholder="Message"></textarea>
+              
+                  <button type="submit">Submit</button>
+                </form>
+            </div>
         </article>
     </section>
 
         
     <!-- footer -->
     <footer>
-        <h4>Brian Spiewak</h4>
-        <h5>Based in New York City</h5>
+        <h4>&copy; 2020 Brian Spiewak</h4>
+        <p>
+            Based in New York City
+        </p>
     </footer>
 
 </body>
