@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -50,6 +50,34 @@ header h1 {
     display: inline;
 }
 
+/* hero style start */
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url("../images/mjdunk.jpg");
+    height: 650px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* hero style end */
+
+.hero-quote {
+    background-color: lightgray;
+    padding: 30px;
+    width: 700px;
+    color: #000000;
+    position: absolute;
+    bottom: 75px;
+    left: 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
+  
+
+/* apply styles to <footer> */
 footer {
     background: #000000;
     width: 100%;
@@ -59,12 +87,6 @@ footer {
 footer h4 {
     display: inline;
     color: #eeeeee;
-    font-size: 28px;
+    font-size: 16px;
     margin: 0;
-}
-
-footer p {
-    float: right;
-    line-height: 1.5;
-    color: #eeeeee
 }
