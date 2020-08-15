@@ -20,13 +20,9 @@ header h1 {
     font-size: 45px
 }
 
-.spiewak {
-    color: #2a607c;
-}
-
-/* apply styles to the <nav> element */
+/* apply styles to the <nav> element in <header> */
 header nav {
-    padding-top: 15px;
+    padding-top: 10px;
     margin-right: 20px;
     float: right;
     font-size: 28px;
@@ -49,6 +45,7 @@ header nav ul li a {
     font-size: 1.55vw;
     text-decoration: none;
     color: #000000;
+    font-weight: bold;
 }
 
 /* hero style start */
@@ -67,41 +64,48 @@ header nav ul li a {
     position: absolute;
     bottom: 75px;
     left: 30px;
-    font-size: 26px;
+    font-size: 30px;
 }
+
 /* hero style end */
 
+/* apply styles to all <p> elements */
+p {
+    font-size: 24px;
+}
 
 /* content section start */    
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
 /* apply styles to each container in primary left column of site */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
+.about-me, .work-examples, .contact-me {
+    margin: 10px 60px 20px 0;
     padding: 50px;
     height: 300px;
-    color: ##000000;
+    color: #000000;
 }
 
 /* apply styles to all <h2> elements in primary left column of site */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.about-me h2, .work-examples h2, .contact-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    border-bottom: 3px solid;
 }
 
 /* apply styles to all images in primary left column of site */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.about-me img, .work-examples img, .contact-me img {
     max-height: 200px;
 }
 
-/* apply styles to images in content containers */
+/* apply style to headshot image */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 
 
 /* content section end */
@@ -130,8 +134,4 @@ footer h5 {
     font-style: italic;
     text-align: right;
     
-}
-
-.flex-row {
-    display: flex;
 }
