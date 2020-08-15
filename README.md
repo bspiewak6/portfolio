@@ -15,7 +15,6 @@ A prospective employer wants to view my deployed portfolio of work sample to see
     * Flexbox
     * CSS Grid
     * Media Query
-    * Animation
 3. Git
 
 
