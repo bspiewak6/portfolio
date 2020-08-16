@@ -1,10 +1,10 @@
 ## Create Portfolio Website 
 ## Description
-A prospective employer wants to view my deployed portfolio to see if I am good fit for an open position at their company
+A prospective employer wants to view my deployed portfolio of work samples to see if I am good fit for an open position at their company
 
 ## Table of Contents
 * [Technologies](#technologies)
-* [Screenshot](#exampleportfolioscreenshot)
+* [Screenshot](#screenshot)
 * [Requirements](#requirements)
 * [Links](#links)
 
@@ -18,7 +18,7 @@ A prospective employer wants to view my deployed portfolio to see if I am good f
 3. Git
 
 
-## Example Portfolio Screenshot
+## Screenshot
 ![Screenshot](./assets/images/portfolio-mockup.gif)
 
 
@@ -31,6 +31,6 @@ A prospective employer wants to view my deployed portfolio to see if I am good f
 6. Make application fully responsive for various screen sizes and devices
 
 ## Links
-* [Portfolio Deployed Site Link]() 
-* [Portfolio Github Repository]()
+* [Portfolio Deployed Site Link](https://bspiewak6.github.io/portfolio/) 
+* [Portfolio Github Repository](https://github.com/bspiewak6/portfolio)
 
