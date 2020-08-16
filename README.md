@@ -4,7 +4,7 @@ A prospective employer wants to view my deployed portfolio to see if I am good f
 
 ## Table of Contents
 * [Technologies](#technologies)
-* [Screenshot](#screenshot)
+* [Screenshot](#exampleportfolioscreenshot)
 * [Requirements](#requirements)
 * [Links](#links)
 
