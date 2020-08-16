@@ -12,13 +12,10 @@ A prospective employer wants to view my deployed portfolio of work sample to see
 ## Technologies
 1. HTML
 2. Advanced CSS
-    * Flexbox
-    * CSS Grid
-    * Media Query
 3. Git
 
 
-## Screenshot
+## Example Portfolio Screenshot
 ![Screenshot](./assets/images/portfolio-mockup.gif)
 
 
