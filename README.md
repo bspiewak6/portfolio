@@ -1,6 +1,6 @@
 ## Create Portfolio Website 
 ## Description
-A prospective employer wants to view my deployed portfolio of work sample to see if I am good fit for an open position at their company
+A prospective employer wants to view my deployed portfolio to see if I am good fit for an open position at their company
 
 ## Table of Contents
 * [Technologies](#technologies)
@@ -12,6 +12,9 @@ A prospective employer wants to view my deployed portfolio of work sample to see
 ## Technologies
 1. HTML
 2. Advanced CSS
+    * Flexbox
+    * CSS Grid
+    * Media Query
 3. Git
 
 
@@ -20,7 +23,7 @@ A prospective employer wants to view my deployed portfolio of work sample to see
 
 
 ## Requirements
-1. Present my portfolio website with name, recent photo, and links to sections about me, my work and how to contact 
+1. Present my portfolio website with name, recent photo, and links to sections about me, my work and how to contact me
 2. Create links in the navigation and add CSS so that the UI scrolls to corresponding section
 3. Create section about my work, use links in nav to scroll to this section 
 4. Show my portfolio applications using an image of the website and when clicked, it takes user to deployed site
@@ -28,6 +31,6 @@ A prospective employer wants to view my deployed portfolio of work sample to see
 6. Make application fully responsive for various screen sizes and devices
 
 ## Links
-* [Horiseon Deployed Site Link]() 
-* [Horiseon Github Repository]()
+* [Portfolio Deployed Site Link]() 
+* [Portfolio Github Repository]()
 
