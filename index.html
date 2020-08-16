@@ -36,10 +36,10 @@
         <div class="hero-quote">
             <p>
                 “Obstacles don’t have to stop you. If you run into a wall, don’t turn around and give up. Figure out how to climb it, go through it, or work around it.” 
-                <br /> <br />
+                <br /> 
+                <br />
                 <strong>-Michael Jordan</strong>
             </p>
-
         </div>
     </section>
 
@@ -62,16 +62,23 @@
         <main id="work-examples" class="work-examples">
             <h2>Work</h2>
             <div class="portfolio-container">
-                
                 <div class="portfolio-item-run">
-                    <span><a href="https://bspiewak6.github.io/run-buddy/" target="_blank" id="portfolio-item-run">Run Buddy</a>
-                    </span>
+                    <div>
+                    <a href="https://bspiewak6.github.io/run-buddy/" target="_blank">
+                    <img src="./assets/images/run-buddy.png"/></a>
+                    </div>
                 </div>
                 <div class="portfolio-item">
                     <span>Next Project Coming Soon</span>
                 </div>
                 <div class="portfolio-item">
                     <span>And The Next Soon After</span>
+                </div>
+                <div class="portfolio-item">
+                    <span>And Another</span>
+                </div>
+                <div class="portfolio-item">
+                    <span>And Another</span>
                 </div>
             </div>
         </main>    
@@ -82,11 +89,11 @@
             <div class="contact-info">
                 <div>
                     <ul style="list-style-type: none;">
-                        <li><strong>Email:</strong> <a href="mailto:bspiewak6@gmail.com">bspiewak6@gmail.com</a></li>
+                        <li><strong>Phone: </strong><a href="tel:555-555-5555">555-555-5555</a></li>
                         <br />
-                        <li><strong>Github:</strong> <a href="https://github.com/bspiewak6" target="_blank">Repositories</a></li>
+                        <li><strong>Email: </strong><a href="mailto:bspiewak6@gmail.com">bspiewak6@gmail.com</a></li>
                         <br />
-                        <li><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/brianspiewak" target="_blank">My Profile</a></li>
+                        <li><a href="http://www.linkedin.com/in/brianspiewak" target="_blank"><strong>LinkedIn Profile</strong></a></li>
                     </ul>
                 </div>
 
@@ -94,12 +101,10 @@
                 <form>
                   <label for="contact-name"><strong>Your Name</strong></label>
                   <input type="text" id="contact-name" placeholder="Your Name" />
-              
                   <label for="contact-message"><strong>Message</strong></label>
                   <textarea id="contact-message" placeholder="Message"></textarea>
-                  
-                  <button type="submit">Submit<a href="mailto:bspiewak6@gmail.com"></a>
-                  </button>
+                  <!-- TODO: make button submit form -->
+                  <button onclick="location.href='mailto:bspiewak6@gmail.com';">Submit</button>
                 </form>
             </div>
         </article>
