@@ -91,7 +91,7 @@ p {
 
 /* apply additional style to work section for more space */
 .work-examples {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 /* apply styles to all <h2> elements in about, work and contact sections */
@@ -121,65 +121,6 @@ main {
     margin: 50px auto;
     padding: 20px;
     background-color: #FEFEFF;
-}
-
-/* apply styles to portfolio grid container
-.portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 1rem;
-} */
- 
-/* apply styles to portfolio run buddy item */
-/* .portfolio-item-run {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border: 4px solid;
-    font-size: 26px;
-    font-weight: bold;
-    background-color: none;
-    background-size: cover;
-    background-position: top;
-    color: #000000;
-    text-align: left;
-    grid-column: 1 / span 2;
-}
-
-/* apply styles to portfolio run buddy image */
-/* .portfolio-item-run img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-} 
-
-apply styles to portfolio placeholder items
-.portfolio-item {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    border: 4px solid;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    background-image: url(../images/placeholder-1.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-} 
-
-apply styles to portfolio placeholder title cards
- .portfolio-item span {
-    margin-top: auto;
-    width: 100%;
-    background-color: #0066cc;
-    color: #ffffff;
-    padding: 10px 5px;
-    text-align: center;
 }
 
 /* apply styles to contact info section */
@@ -284,7 +225,7 @@ a:hover, a:active {
     text-align: left;
     position: absolute;
     left: 100px;
-    bottom: 350px;
+    bottom: 200px;
     font-size: 100px;
 }
 
@@ -350,8 +291,11 @@ header nav ul li a {
     font-size: 20px;
 }
     
-.about-me, .work-examples, .contact-me {
+.about-me, .contact-me {
     margin: 10px 60px 200px 0;
+}
+.work-examples {
+    margin-bottom: 700px;
 }
 }
 
@@ -367,7 +311,7 @@ header nav ul li a {
 }
 
 .work-examples {
-    margin-bottom: 700px;
+    margin-bottom: 100px;
 }
 
 .portfolio-item span {
@@ -392,3 +336,41 @@ header nav ul li a {
     font-size: 16px;
 }
 }
+
+/* media query for 575px or smaller desktop screens and devices */
+@media screen and (max-width: 400px) {
+
+    .content p {
+        font-size: 14px;
+    }
+    
+    .about-me, .contact-me {
+        margin: 10px 60px 350px 0;
+    }
+    
+    .work-examples {
+        margin-bottom: 750px;
+    }
+    
+    .portfolio-item span {
+        /* margin-top: auto; */
+        width: 100%;
+        height: 35%;
+        background-color: #0066cc;
+        color: #ffffff;
+        text-align: bottom;
+        font-size: 12px;
+    }
+    
+    .contact-info ul {
+        font-size: 16px;
+    }
+    
+    .contact-form {
+        font-size: 16px;   
+    }
+    
+    .contact-form button {
+        font-size: 16px;
+    }
+    }
