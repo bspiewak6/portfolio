@@ -62,11 +62,8 @@ header nav ul li a {
 .hero-quote {
     width: 50%;
     color: #ffffff;
-    position: absolute;
-    bottom: 75px;
+    position: fixed;
     left: 30px;
-    font-size: 30px;
-    line-height: 1.2
 }
 
 /* apply styles to all <p> elements */
@@ -91,7 +88,7 @@ p {
 
 /* apply additional style to work section for more space */
 .work-examples {
-    margin-bottom: 200px;
+    margin-bottom: 500px;
 }
 
 /* apply styles to all <h2> elements in about, work and contact sections */
@@ -316,7 +313,7 @@ header nav ul li a {
     margin: 10px 60px 200px 0;
 }
 .work-examples {
-    margin-bottom: 250px;
+    margin-bottom: 550px;
 }
 }
 
@@ -341,7 +338,7 @@ header nav ul li a {
 }
 
 .work-examples {
-    margin-bottom: 150px;
+    margin-bottom: 550px;
 }
 
 .contact-info ul {
@@ -378,7 +375,7 @@ header nav ul li a {
 }
     
 .work-examples {
-    margin-bottom: 850px;
+    margin-bottom: 500px;
 }
     
 .contact-info ul {
