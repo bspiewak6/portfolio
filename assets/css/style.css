@@ -120,6 +120,14 @@ main {
     background-color: #FEFEFF;
 }
 
+.card {
+    margin: 15px 30px;
+}
+
+.card-title {
+    justify-items: center;
+}
+
 /* apply styles to contact info section */
 .contact-info {
     display: flex;
@@ -221,6 +229,7 @@ a:hover, a:active {
     width: 30%;
     text-align: left;
     position: absolute;
+    top: 250px;
     left: 100px;
     bottom: 400px;
     font-size: 250px;
@@ -246,6 +255,14 @@ a:hover, a:active {
 .contact-form {
     height: 400px;
     font-size: 20px; 
+}
+}
+
+/* media query for 980px or smaller desktop screens and devices */
+@media screen and (max-width: 1080px) {
+.hero-quote {
+    top: 250px;
+    text-shadow: 0px 0px 10px black;
 }
 }
 
