@@ -62,7 +62,7 @@ header nav ul li a {
 .hero-quote {
     width: 50%;
     color: #ffffff;
-    position: fixed;
+    position: absolute;
     left: 30px;
 }
 
@@ -290,6 +290,10 @@ footer h4, footer p {
 
 .content p {
     font-size: 20px;
+}
+
+.card-group {
+    width: 100%;
 }
 
 .contact-info {
