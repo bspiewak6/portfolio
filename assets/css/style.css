@@ -78,8 +78,8 @@ p {
     margin-left: 20px;
 }
 
-/* apply styles to about, work and contact sections */
-.about-me, .work-examples, .contact-me {
+/* apply styles to about and contact sections */
+.about-me, .contact-me {
     margin: 10px 60px 100px 0;
     padding: 50px;
     height: 300px;
@@ -88,7 +88,7 @@ p {
 
 /* apply additional style to work section for more space */
 .work-examples {
-    margin-bottom: 500px;
+    margin-bottom: 125px;
 }
 
 /* apply styles to all <h2> elements in about, work and contact sections */
@@ -282,7 +282,7 @@ footer h4, footer p {
 .hero-quote {
     width: 50%;
     text-align: left;
-    position: absolute;
+    position: fixed;
     left: 100px;
     bottom: 250px;
     font-size: 15px;
@@ -310,10 +310,10 @@ header nav ul li a {
 }
     
 .about-me, .contact-me {
-    margin: 10px 60px 200px 0;
+    margin: 10px 60px 250px 0;
 }
 .work-examples {
-    margin-bottom: 550px;
+    margin-bottom: 250px;
 }
 }
 
@@ -334,11 +334,11 @@ header nav ul li a {
 }
 
 .about-me, .contact-me {
-    margin: 10px 60px 150px 0;
+    margin: 10px 60px 250px 0;
 }
 
 .work-examples {
-    margin-bottom: 550px;
+    margin-bottom: 250px;
 }
 
 .contact-info ul {
@@ -371,11 +371,11 @@ header nav ul li a {
 }
     
 .about-me, .contact-me {
-    margin: 10px 60px 350px 0;
+    margin: 10px 60px 250px 0;
 }
     
 .work-examples {
-    margin-bottom: 500px;
+    margin-bottom: 250px;
 }
     
 .contact-info ul {
