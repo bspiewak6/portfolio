@@ -15,11 +15,12 @@ A prospective employer wants to view my deployed portfolio of work samples to se
     * Flexbox
     * CSS Grid
     * Media Query
+    * Bootstrap CSS Framework
 3. Git
 
 
 ## Screenshot
-![Screenshot](./assets/images/portfolio-mockup.gif)
+![Screenshot](./assets/images/screenshot.png)
 
 
 ## Requirements
