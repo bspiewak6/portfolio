@@ -3,24 +3,12 @@
 This project was to create my first portfolio website displaying projects I have created myself and been a contributor to. This app intends to show my web development skills as I am currently studying to become a full stack web developer in the University of Pennsylvania's LPS Coding Bootcamp.
 
 ## Table of Contents
-* [Technologies](#technologies)
 * [Screenshot](#screenshot)
 * [Requirements](#requirements)
 * [Links](#links)
 
-
-## Technologies
-1. HTML
-2. Advanced CSS
-    * Flexbox
-    * CSS Grid
-    * Media Query
-    * Bootstrap CSS Framework
-
-
 ## Screenshot
 ![Screenshot](./assets/images/screenshot.png)
-
 
 ## Requirements
 1. This project was to present my portfolio website with name, recent photo, and links to sections about me, my work and how to contact me
