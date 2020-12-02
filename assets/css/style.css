@@ -6,7 +6,8 @@
 
 body {
     background-color: #ffffff;
-    font-family: 'Georgia', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Times';
+    /* 'Georgia', 'Helvetica', 'Arial', sans-serif; */
     overflow-x: hidden; 
 }
 
