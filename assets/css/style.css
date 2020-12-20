@@ -80,15 +80,15 @@ p {
 }
 
 /* apply styles to about and contact sections */
-.about-me, .contact-me {
+.about-me, .contact-me, .skills {
     margin: 10px 60px 150px 0;
     padding: 50px;
     height: 300px;
     color: #000000;
 }
 
-.contact-me {
-    margin: 10px 60px 220px 0;
+.skills {
+    margin: 10px 60px 150px 0;
     padding: 50px;
     height: 100px;
     color: #000000;
@@ -96,11 +96,13 @@ p {
 
 /* apply additional style to work section for more space */
 .work-examples {
-    margin-bottom: 125px;
+    padding: 50px;
+    margin: 10px 60px 150px 0;
+
 }
 
-/* apply styles to all <h2> elements in about, work and contact sections */
-.about-me h2, .work-examples h2, .contact-me h2 {
+/* apply styles to all <h2> elements in about, skills, work and contact sections */
+.about-me h2, .work-examples h2, .contact-me h2, .skills h2 {
     margin-bottom: 20px;
     font-size: 44px;
     border-bottom: 3px solid;
@@ -119,6 +121,13 @@ p {
 
 .flex-row {
     display: flex;
+}
+
+/* skills logo size */
+.skill {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
 }
 
 /* apply styles to portfolio section */
@@ -339,11 +348,8 @@ header nav ul li a {
     font-size: 20px;
 }
     
-.about-me, .contact-me {
+.about-me, .contact-me, .skills {
     margin: 10px 60px 250px 0;
-}
-.work-examples {
-    margin-bottom: 250px;
 }
 }
 
@@ -361,12 +367,8 @@ header nav ul li a {
     font-size: 14px;
 }
 
-.about-me, .contact-me {
-    margin: 10px 60px 250px 0;
-}
-
-.work-examples {
-    margin-bottom: 250px;
+.about-me, .contact-me, .skills {
+    margin: 10px 60px 300px 0;
 }
 
 .contact-info ul {
